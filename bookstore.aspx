@@ -12,10 +12,10 @@
         <div>
         </div>
         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="微软雅黑" Font-Size="Larger" Font-Underline="True" Text="欢迎进入图书管理后台"></asp:Label>
-        <asp:GridView ID="GridView1" runat="server" DataKeyNames="No" OnRowCancelingEdit="GVcancelingEdit" OnRowDeleting="GVdeleting" OnRowEditing="GVediting" OnRowUpdating="GVupdating">
+        <asp:GridView ID="GridView1" runat="server" DataKeyNames="No" OnRowCancelingEdit="GVcancelingEdit" OnRowDeleting="GVdeleting" OnRowEditing="GVediting" OnRowUpdating="GVupdating" BorderStyle="None" Font-Names="Times New Roman">
             <Columns>
                 <asp:ButtonField CommandName="delete" Text="删除" />
-                <asp:TemplateField ShowHeader="False">
+                <asp:TemplateField ShowHeader="True">
                     <EditItemTemplate>
                         <asp:LinkButton ID="Linkbt1" runat="server" CommandName="update">确认</asp:LinkButton>
                         <asp:LinkButton ID="Linkbt2" runat="server" CommandName="cancel">取消</asp:LinkButton>
