@@ -43,6 +43,7 @@
             <asp:Button ID="Button3" runat="server" OnClick="Delete_click" Text="删除数据" />
         </p>
         <asp:Label ID="Label6" runat="server"></asp:Label>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:db_studyConnectionString %>" SelectCommand="SELECT * FROM [tb_student]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

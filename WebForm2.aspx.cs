@@ -23,7 +23,7 @@ namespace E6
         protected void Page_Load(object sender, EventArgs e)
         {
             //用关键字new把已经实例化的ADO.NET类初始化
-            string sqlcon = ConfigurationManager.ConnectionStrings["db_studyConnectionString2"].ConnectionString; //将你连接数据库的连接字符串修改至[]中
+            string sqlcon = ConfigurationManager.ConnectionStrings["db_studyConnectionString"].ConnectionString; //将你连接数据库的连接字符串修改至[]中
             con = new SqlConnection(sqlcon);
             cmd = new SqlCommand();
             cmd.Connection = con;

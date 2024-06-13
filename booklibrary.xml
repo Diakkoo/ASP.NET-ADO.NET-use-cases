@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<booklibrary>
+  <book genre="Computer Science" ISBN="201101014490702">
+    <No>7001</No> <title>深入理解计算机系统（原书第二版）</title> <author>Randal E Bryant</author> <price>49.90</price> </book>
+  <book genre="Computer Science" ISBN="200609003000154">
+    <No>7002</No> <title>C程序设计语言</title> <author>Thomas H Cormen</author> <price>30.00</price> </book>
+  <book genre="Chinese History" ISBN="1982110022670564">
+    <No>7060</No> <title>史记（全十册）</title> <author>司马迁</author> <price>226.70</price> </book>
+  <book genre="Chinese History" ISBN="1982110022670564">
+    <No>7066</No> <title>史记</title> <author>司马迁</author> <price>226.70</price> </book>
+  <book genre="Chinese Novel" ISBN="20220468465465">
+    <No>7059</No> <title>野草</title> <author>鲁迅</author> <price>13.80</price> </book>
+</booklibrary>
